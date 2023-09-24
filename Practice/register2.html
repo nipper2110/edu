@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+
+        .content{
+            background-color: white;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .title{
+            text-align: center;
+            color: cadetblue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            padding-top: 40px;
+        }
+
+        .social{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        #facebook{
+            margin-right: 10px;
+        } 
+        
+        #twitter{
+            margin-right: 10px;
+        }
+
+        .user-input{
+            width: 80%;
+            padding: 10px 15px;
+            margin: 0px 20px;
+            border: 1px solid cadetblue;
+            border-radius: 5px;
+        }
+
+        .btn{
+            /* margin-top: 20px; */
+            padding: 20px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="title">Register Here</div>
+
+        <div class="social">
+            <i class="fa-brands fa-facebook" id="facebook"></i>
+            <i class="fa-brands fa-twitter" id="twitter"></i>
+            <i class="fa-brands fa-google" id="google"></i>
+        </div>
+
+        <div class="input-group">
+            <i class="fa-solid fa-user"></i><input type="text" placeholder="Name" class="user-input"> 
+        </div>
+        <div class="input-group">
+            <i class="fa-solid fa-envelope"></i><input type="email" placeholder="Email" class="user-input">
+        </div>
+        <div class="input-group">
+            <i class="fa-solid fa-lock"></i><input type="password" placeholder="password" class="user-input">
+        </div>
+
+        <div class="btn">
+            <button>Register</button>
+        </div>
+    </div>
+</body>
+</html>
